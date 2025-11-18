@@ -6,10 +6,10 @@
 
             switch ($not) {
                 case "D":
-                    $mensagem = "Desenvolvido";
+                    $mensagem = "Desenvolvido - Parabéns pelo seu esforço!";
                     break;
                 case "ND":
-                    $mensagem = "Não Desenvolvido";
+                    $mensagem = "Não Desenvolvido - Melhore seus estudos!";
                     break;
                 default:
                     $mensagem = "Nota Inválida!";

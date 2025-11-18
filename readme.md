@@ -18,26 +18,26 @@ Interpretar uma nota em formato de letra (D, ND) e exibir a menção corresponde
 
 # ▶️ Como Usar # 
 
-Defina o valor da variável nota (ex.: "D", "ND").
+- Defina o valor da variável nota (ex.: "D", "ND").
 
-O programa irá interpretar automaticamente a "letra" e exibirá a menção correspondente.
+- O programa irá interpretar automaticamente a "letra" e exibirá a menção correspondente.
 
-Caso a letra seja desconhecida, será exibida a mensagem "Nota inválida".
+- Caso a letra seja desconhecida, será exibida a mensagem "Nota inválida".
 
 # 🧠 Conceitos Praticados # 
 
-Uso da estrutura switch-case ou switch, case e default
+- Uso da estrutura switch-case ou switch, case e default
 
-Manipulação de Strings (toUpperCase)
+- Manipulação de Strings (toUpperCase)
 
-Lógica de classificação
+- Lógica de classificação
 
-Validação de dados
+- Validação de dados
 
 # 📘 Possíveis Extensões #
 
-Converter notas numéricas para letras (ex.: 7 ate 10 → D)
+- Converter notas numéricas para letras (ex.: 7 ate 10 → D)
 
-Criar interface gráfica simples
+- Criar interface gráfica simples
 
-Implementar testes unitários
+- Implementar testes unitários
