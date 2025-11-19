@@ -1,0 +1,75 @@
+/* Estilo moderno com azul e laranja inspirados no Senac */
+
+:root {
+    --azul-senac: #003f88;
+    --laranja-senac: #ff7f32;
+    --cinza-claro: #f5f5f5;
+    --fonte: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--cinza-claro);
+    font-family: var(--fonte);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+h1 {
+    margin-top: 0;
+    color: var(--azul-senac);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 20px 0;
+    border: 2px solid var(--azul-senac);
+    border-radius: 10px;
+    font-size: 16px;
+    background: #fff;
+    color: #333;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+select:hover {
+    border-color: var(--laranja-senac);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: var(--laranja-senac);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: var(--azul-senac);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
